@@ -173,6 +173,8 @@ table {
   line-height: 2em;
 }
 
+/* Estilos de las preguntas */
+
 blockquote {
   margin: 0;
 }
@@ -205,6 +207,18 @@ blockquote p {
 .orador h3 {
   display: inline-block;
 }
+
+.orador a {
+  color: gray;
+  text-decoration: none;
+}
+
+.recursos li a {
+  color: gray;
+  text-decoration: none;
+}
+
+/* Fin estilos de las preguntas */
 
 @media (max-width: 675px){
 
