@@ -1,0 +1,22 @@
+body {
+    background-color: #f9f7f7;
+    text-align: center;
+}
+
+h1 {
+    color: #dbe2ef;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+
+.video {
+    width: 50%;
+}
+
+@media (max-width: 675px){
+
+    .video {
+      width: 90%;
+    }
+
+}
