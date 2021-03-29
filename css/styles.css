@@ -185,7 +185,7 @@ blockquote p {
   text-align: center;
 }
 
-.orador h3 {
+.orador h3, p {
   display: inline-block;
 }
 
