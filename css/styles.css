@@ -199,6 +199,46 @@ blockquote p {
   text-decoration: none;
 }
 
+.contenedor-estudios-biblicos {
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px grey;
+  margin: 10px auto;
+  text-align: center;
+  width: 95%;
+}
+
+.titulo-estudio {
+  margin: 5px auto 0;
+}
+
+.contenedor-inicio-fin {
+  height: 100px;
+  margin: 10px auto 5px 5px;
+  text-align: left;
+  width: 500px;
+}
+
+.contenedor-recursos {
+  margin: 10px auto 5px 5px;
+  text-align: left;
+}
+
+.inicio-fin p {
+  line-height: 2em;
+  margin: 0 auto 10px 20px;
+}
+
+.recursos p {
+  line-height: 2em;
+  margin: 0 auto 10px 20px;
+}
+
+.emoji-calendario {
+  float: left;
+  height: 100px;
+}
+
 /* Fin estilos de las preguntas */
 
 @media (max-width: 675px){
