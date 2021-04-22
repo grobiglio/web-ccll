@@ -54,17 +54,22 @@ footer {
   width: 100%;
 }
 
-.video-del-predicador {
-  text-align: center;
-}
-
 .pie-de-pagina {
   margin: 0;
 }
 
+.contenedor-de-video {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+  margin: 10px auto;
+  text-align: center;
+  width: 95%;
+}
+
 @media (max-width: 675px){
 
-  .video-del-predicador iframe {
-    width: 90%;
+  .video-del-predicador {
+    width: 95%;
   }
 }
