@@ -1,292 +1,76 @@
-/* Paleta: https://colorhunt.co/palette/22272 */
-
-body {
-  background-color: #f9f7f7;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0 auto;
-  width: 100%;
+.fondo-menu {
+    background-color: #112d4e;
 }
 
-/* --- Encabezado --- */
-
-header {
-  margin: 0;
-  width: 100%;
-}
-
-header h1 {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0;
-}
-
-#logo {
-  float: left;
-  height: 80px;
-  margin: 0 20px 0 0;
-}
-
-/* --- Fin encabezado --- */
-
-/* --- Menú ---*/
-
-nav {
-  background-color: #112d4e;
-  box-shadow: 0px 3px 3px black;
-  height: 40px;
-  margin: 0;
-  width: 100%;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0 auto;
-  padding-left: 0;
-}
-
-nav ul li {
-  border-right: 1px solid #f9f7f7;
-  float: left;
-  line-height: 40px;
-  padding: 0 20px;
-}
-
-nav ul li:first-child {
-  border-left: 1px solid #f9f7f7;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-nav ul li:hover {
-  background-color: #3f72af;
-}
-
-/* --- Fin menú ---*/
-
-/* Estilos del contenedor de la página principal */
+/* Estilos de la página principal */
 
 .contenedor-principal {
-  line-height: 1.5rem;
-  margin: 0 auto;
-  text-align: center;
-  width: 80%;
+    text-align: center;
 }
 
-.sub-cont-ppal {
-  margin: 30px auto;
-  width: 40%;
+.somos {
+    margin: 30px auto;
+    width: 40%;
 }
 
-.ubicacion iframe {
-  height: 98%;
-  width: 100%;
+.texto-biblico {
+    margin: 30px auto;
+    width: 40%;
 }
 
-/* Fin estilos del contenedor de la página principal */
+.horarios {
+    margin: 30px auto;
+    width: 40%;
+}
 
-/* Estilos del pié de página */
+.contacto {
+    margin: 30px auto;
+    width: 40%;
+}
 
-footer p {
-  margin: 0;
+.mapa {
+    height: 200px;
+    width: 90%;
+}
+
+/* Estilos de la página de estudios */
+
+.detalle-estudios {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px gray;
+    margin: 10px auto;
+    padding: 10px;
+    width: 95%;
 }
 
 .pie-de-pagina {
-  background-color: #112d4e;
-  color: white;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  width: 100%;
-}
-
-/* Fin estilos del pié de página */
-
-/* Estilos de la página reuniones */
-
-#tabla {
-  display: grid;
-  grid-template-columns: 20% 40% 40%;
-  text-align: center;
-}
-
-.encabezado-de-tabla {
-  background-color: #a6e3e9;
-  border: #71c9ce 3px solid;
-  border-radius: 5px;
-}
-
-.elemento-de-tabla1 {
-  background-color: #e3fdfd;
-  border: #71c9ce 2px solid;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.video-reuniones iframe {
-  width: 98%;
-}
-
-.elemento-de-tabla2 {
-  background-color: #cbf1f5;
-  border: #71c9ce 2px solid;
-  border-radius: 5px;
-  text-align: center;
-}
-
-/* Fin estilos de la página reuniones */
-
-table {
-  width: 90%;
-}
-
-.dia {
-  width: 20%;
-}
-
-.video {
-  width: 89%;
-}
-
-.preguntas:nth-child(n) {
-  line-height: 2em;
-}
-
-/* Estilos de las preguntas */
-
-blockquote {
-  margin: 0;
-}
-
-blockquote p {
-  padding: 15px;
-  background: #dbe2ef;
-  border-radius: 5px;
-}
-
-.salmo23 {
-  background-color: #dbe2ef;
-  border: 2px solid black;
-  border-radius: 10px;
-  margin: 10px;
-  text-align: center;
-}
-
-.nota {
-  background-color: #3f72af;
-  border-radius: 10px;
-  margin: 0 10px;
-  padding: 10px;
-}
-
-.video-de-nando {
-  text-align: center;
-}
-
-.orador h3, p {
-  display: inline-block;
-}
-
-.orador a {
-  color: gray;
-  text-decoration: none;
-}
-
-.recursos li a {
-  color: gray;
-  text-decoration: none;
-}
-
-.contenedor-estudios-biblicos {
-  border: 2px solid black;
-  border-radius: 5px;
-  box-shadow: 3px 3px 3px grey;
-  margin: 10px auto;
-  text-align: center;
-  width: 95%;
-}
-
-.titulo-estudio {
-  margin: 5px auto 0;
-}
-
-.contenedor-inicio-fin {
-  height: 100px;
-  margin: 10px auto 5px 5px;
-  text-align: left;
-  width: 500px;
-}
-
-.contenedor-recursos {
-  margin: 10px auto 5px 5px;
-  text-align: left;
-}
-
-.inicio-fin p {
-  line-height: 2em;
-  margin: 0 auto 10px 20px;
-}
-
-.recursos p {
-  line-height: 2em;
-  margin: 0 auto 10px 20px;
-}
-
-.emoji-calendario {
-  float: left;
-  height: 100px;
-}
-
-/* Fin estilos de las preguntas */
-
-@media (max-width: 675px){
-
-  /* Encabezado */
-  header h1 {
-    display: none;
-  }
-
-  #logo {
-    float: none;
-  }
-
-  /* Menú */
-  nav {
-    height: 200px;
-  }
-
-  nav ul li {
-    float: none;
+    background-color: #112d4e;
+    color: white;
+    height: 40px;
     line-height: 40px;
-  }
-
-  nav ul li:first-child {
-    border-left: none;
-  }
-
-  /* Contenedor principal */
-  .sub-cont-ppal {
-    height: auto;
+    text-align: center;
     width: 100%;
   }
 
-  #tabla {
-    display: grid;
-    grid-template-columns: 100%;
+/* Estilos de la página de la Biblia en un año */
+
+.contenedor-biblia-un-anio {
     text-align: center;
-  }
+}
 
-  .encabezado-de-tabla {
-    display: none;
-  }
+.dia-biblia-un-anio {
+    margin: 0;
+}
 
-  .elemento-de-tabla1, .elemento-de-tabla2 {
-    min-height: 50px;
-  }
+.video-biblia-un-anio {
+    height: 250px;
+    margin: 0 auto;
+    width: 95%;
+}
 
-  .video-de-nando iframe {
-    width: 90%;
-  }
+.cont-vid-bib-un-anio {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: -3px -3px 3px gray inset;
 }

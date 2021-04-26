@@ -1,99 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>Comunidad Cristiana Laguna Larga</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="imagenes/favicon.ico">
-  </head>
-  <body>
-    <header id="cabecera">
-      <img id="logo" src="imagenes/Logo-CCLL.jpeg" alt="Logo de Comunidad Cristiana Laguna Laguna">
-      <h1>Comunidad Cristiana Laguna Larga</h1>
-    </header>
-    <nav class="menu">
-      <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="estudios.html">Estudios Bíblicos</a></li>
-          <li><a href="reuniones.html">Reuniones</a></li>
-          <li><a href="biblia-un-anio.html">La Biblia en un Año</a></li>
-          <li><a href="escuela-biblica.html" target="_blank">Escuela Bíblica</a></li>
-      </ul>
-    </nav>
-    <h2>Estudios bíblicos 2021</h2>
-    <div class="contenedor-estudios-biblicos">
-      <h3 class="titulo-estudio">Dioses que fallan</h3>
-      <div class="contenedor-inicio-fin">
-        <img class="emoji-calendario"
-             src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/calendar_1f4c5.png"
-             alt="Emoji de un calendario">
-        <section class="inicio-fin">
-          <p>✔ Inicio: <strong>04/02/2021</strong><br>
-             ✔ Fin: <strong>04/02/2021</strong></p>
-        </section>
-      </div>
-      <div class="contenedor-recursos">
-        <img class="emoji-calendario"
-             src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/joypixels/275/books_1f4da.png"
-             alt="Emoji de libros">
-        <section class="recursos">
-          <p>Recursos:<br>
-            <a href="https://app.rightnowmedia.org/es/content/details/336048?session=336058" target="_blank">✔ Coalición Lee - Sesión 1</a><br>
-            <a href="archivos/dioses-que-fallan.pdf" target="_blank">✔ Dioses que fallan (Libro en pdf)</a>
-          </p>
-        </section>
-      </div>
-    </div>
-    <a href="preguntas-estudio-1.html">Preguntas</a>
-    <h3>Salmo 23</h3>
-    <ul>
-      <li>Inicio: 11/02/2021</li>
-      <li>Fin: 25/03/2021</li>
-      <li>
-        Recursos:<br>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>Comunidad Cristiana Laguna Larga</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="imagenes/favicon.ico">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Menú -->
+        <nav class="navbar fondo-menu navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html">Comunidad Cristiana Laguna Larga</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reuniones.html">Reuniones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="biblia-un-anio.html">La Biblia en un Año</a>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Adolescentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Escuela Bíblica</a>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+        <!--
+        <h3 class="titulo-estudio">Dioses que fallan</h3>
+        <div class="contenedor-inicio-fin">
+            <img class="emoji-calendario"
+                src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/calendar_1f4c5.png"
+                alt="Emoji de un calendario">
+            <section class="inicio-fin">
+            <p>✔ Inicio: <strong>04/02/2021</strong><br>
+                ✔ Fin: <strong>04/02/2021</strong></p>
+            </section>
+        </div>
+        <div class="contenedor-recursos">
+            <img class="emoji-calendario"
+                src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/joypixels/275/books_1f4da.png"
+                alt="Emoji de libros">
+            <section class="recursos">
+            <p>Recursos:<br>
+                <a href="https://app.rightnowmedia.org/es/content/details/336048?session=336058" target="_blank">✔ Coalición Lee - Sesión 1</a><br>
+                <a href="archivos/dioses-que-fallan.pdf" target="_blank">✔ Dioses que fallan (Libro en pdf)</a>
+            </p>
+            </section>
+        </div>
+        </div>
+        <a href="preguntas-estudio-1.html">Preguntas</a>
+        <h3>Salmo 23</h3>
         <ul>
-          <li><a href="https://app.rightnowmedia.org/es/content/details/374073" target="_blank">Salmo 23 - Nando Goicochea (necesario)</a></li>
-          <li><a href="https://app.rightnowmedia.org/es/content/details/352010" target="_blank">Salmo 23 - Matt Chandler (opcional)</a></li>
+        <li>Inicio: 11/02/2021</li>
+        <li>Fin: 25/03/2021</li>
+        <li>
+            Recursos:<br>
+            <ul>
+            <li><a href="https://app.rightnowmedia.org/es/content/details/374073" target="_blank">Salmo 23 - Nando Goicochea (necesario)</a></li>
+            <li><a href="https://app.rightnowmedia.org/es/content/details/352010" target="_blank">Salmo 23 - Matt Chandler (opcional)</a></li>
+            </ul>
+        </li>
+        <li><a href="preguntas-estudio-2.html" target="_blank">Preguntas para el estudio 1</a></li>
+        <li><a href="preguntas-estudio-3.html" target="_blank">Preguntas para el estudio 2</a></li>
+        <li><a href="preguntas-estudio-4.html" target="_blank">Preguntas para el estudio 3</a></li>
+        <li><a href="preguntas-estudio-5.html" target="_blank">Preguntas para el estudio 4</a></li>
+        <li><a href="preguntas-estudio-6.html" target="_blank">Preguntas para el estudio 5</a></li>
+        <li><a href="preguntas-estudio-7.html" target="_blank">Preguntas para el estudio 6</a></li>
         </ul>
-      </li>
-      <li><a href="preguntas-estudio-2.html" target="_blank">Preguntas para el estudio 1</a></li>
-      <li><a href="preguntas-estudio-3.html" target="_blank">Preguntas para el estudio 2</a></li>
-      <li><a href="preguntas-estudio-4.html" target="_blank">Preguntas para el estudio 3</a></li>
-      <li><a href="preguntas-estudio-5.html" target="_blank">Preguntas para el estudio 4</a></li>
-      <li><a href="preguntas-estudio-6.html" target="_blank">Preguntas para el estudio 5</a></li>
-      <li><a href="preguntas-estudio-7.html" target="_blank">Preguntas para el estudio 6</a></li>
-    </ul>
-    <hr>
-    <h3>Conquistando la Depresión y el Enojo</h3>
-    <ul>
-      <li>Inicio: 01/04/2021</li>
-      <li>Fin: 27/05/2021</li>
-      <li>
-        Recursos:<br>
-        <ul>
-          <li><a href="https://www.bbnradio.org/wcm4/bbnbispanish/InstitutoB%c3%adblico/AccesoalosCursos/Cursosdisponiblesparaelestudio/tabid/2523/CourseID/852/Default.aspx" target="_blank">Conquistando la Depresión y el Enojo</a>, Instituto Bíblico BBN.</li>
-        </ul>
-      </li>
-      <li><a href="preguntas-estudio-8.html" target="_blank">Preguntas para el estudio 1</a></li>
-      <li><a href="preguntas-estudio-9.html" target="_blank">Preguntas para el estudio 2</a></li>
-      <li><a href="preguntas-estudio-10.html" target="_blank">Preguntas para el estudio 3</a></li>
-      <li><a href="preguntas-estudio-11.html" target="_blank">Preguntas para el estudio 4</a></li>
-    </ul>
-    <hr>
-    <h3>Conflictos</h3>
-    <ul>
-      <li>Inicio: 03/06/2021</li>
-      <li>Fin: 24/06/2021</li>
-      <li>
-        Recursos:<br>
-        <ul>
-          <li><a href="https://app.rightnowmedia.org/es/content/details/90?session=174516" target="_blank">Conflictos - Doug Fields</a></li>
-        </ul>
-      </li>
-    </ul>
-  <footer class="pie-de-pagina">
-    <p>Comunidad Cristiana Laguna Larga</p>
-  </footer>
-  </body>
+        <hr>
+        -->
+            <div class="col-lg-12">
+                <section class="detalle-estudios">
+                    <h3>Conquistando la Depresión y el Enojo</h3>
+                    <h4>Recursos:</h4>
+                    <p><a href="https://www.bbnradio.org/wcm4/bbnbispanish/InstitutoB%c3%adblico/AccesoalosCursos/Cursosdisponiblesparaelestudio/tabid/2523/CourseID/852/Default.aspx" target="_blank">Conquistando la Depresión y el Enojo</a>, Instituto Bíblico BBN.</p>
+                    <p><a href="preguntas-estudio-8.html" target="_blank">Preguntas para el estudio 1</a></p>
+                    <p><a href="preguntas-estudio-9.html" target="_blank">Preguntas para el estudio 2</a></p>
+                    <p><a href="preguntas-estudio-10.html" target="_blank">Preguntas para el estudio 3</a></p>
+                    <p><a href="preguntas-estudio-11.html" target="_blank">Preguntas para el estudio 4</a></p>
+                </section>
+            </div>
+            <div class="col-lg-12">
+                <section class="detalle-estudios">
+                    <h3>Conflictos</h3>
+                    <h4>Recursos:</h4>
+                    <p><a href="https://app.rightnowmedia.org/es/content/details/90?session=174516" target="_blank">Conflictos - Doug Fields</a></p>
+                </section>
+            </div>
+        </div>
+        <footer class="pie-de-pagina">
+            <p>Comunidad Cristiana Laguna Larga &copy;</p>
+        </footer>
+    </body>
 </html>
