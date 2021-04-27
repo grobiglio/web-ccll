@@ -1,3 +1,5 @@
+/* Paleta: https://colorhunt.co/palette/22272 */
+
 .fondo-menu {
     background-color: #112d4e;
 }
@@ -36,12 +38,29 @@
 /* Estilos de la página de estudios */
 
 .detalle-estudios {
-    border: 1px solid black;
+    border: 1px solid #112d4e;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 3px 3px 3px #3f72af;
     margin: 10px auto;
     padding: 10px;
     width: 95%;
+}
+
+.link-leccion {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    width: 135px;
+}
+
+.link-leccion:hover {
+    background-color: #dbe2ef;
+    border-radius: 15px;
+}
+
+.leccion {
+    color: black;
+    text-decoration: none;
 }
 
 .pie-de-pagina {

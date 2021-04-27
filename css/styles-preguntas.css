@@ -92,6 +92,10 @@ blockquote p {
   display: inline-block;
 }
 
+.orador h2, p {
+  display: inline-block;
+}
+
 .orador a {
   color: gray;
   text-decoration: none;
