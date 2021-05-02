@@ -6,28 +6,21 @@
 
 /* Estilos de la página principal */
 
-.contenedor-principal {
+body {
+    background-color: #f9f7f7;
+}
+
+a {
+    text-decoration: none;
+}
+.somos, .texto-biblico, .horarios, .contacto {
+    margin: 30px auto;
     text-align: center;
-}
-
-.somos {
-    margin: 30px auto;
     width: 40%;
 }
 
-.texto-biblico {
-    margin: 30px auto;
-    width: 40%;
-}
-
-.horarios {
-    margin: 30px auto;
-    width: 40%;
-}
-
-.contacto {
-    margin: 30px auto;
-    width: 40%;
+.ubicacion {
+    text-align: center;
 }
 
 .mapa {
@@ -75,11 +68,18 @@
 /* Estilos de la página de la Biblia en un año */
 
 .contenedor-biblia-un-anio {
+    margin: 5px;
     text-align: center;
 }
 
 .dia-biblia-un-anio {
+    background-color: #3f72af;
+    border-radius: 5px 0;
+    display: block;
     margin: 0;
+    position: relative;
+    left: -13px;
+    width: 100px;
 }
 
 .video-biblia-un-anio {
@@ -89,7 +89,49 @@
 }
 
 .cont-vid-bib-un-anio {
-    border: 1px solid black;
+    border: 1px solid #112d4e;
     border-radius: 5px;
-    box-shadow: -3px -3px 3px gray inset;
+    box-shadow: -3px -3px 3px #3f72af inset;
 }
+
+/* Media queries tomados de Bootstrap */
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+    .somos, .texto-biblico, .horarios, .contacto {
+        width: 50%;
+    }
+    
+    .mapa {
+        width: 95%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+    .somos, .texto-biblico, .horarios, .contacto {
+        width: 70%;
+    }
+    
+    .mapa {
+        width: 98%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+    .somos, .texto-biblico, .horarios, .contacto {
+        width: 80%;
+    }
+    
+    .mapa {
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/*
+@media (min-width: 1200px) { ... }
+*/
