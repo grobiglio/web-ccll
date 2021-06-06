@@ -13,6 +13,12 @@ body {
 a {
     text-decoration: none;
 }
+
+.anuncio {
+    padding: 50px 0 30px;
+    text-align: center;
+}
+
 .somos, .texto-biblico, .horarios, .contacto {
     margin: 30px auto;
     text-align: center;
