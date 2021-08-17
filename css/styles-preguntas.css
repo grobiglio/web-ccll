@@ -7,6 +7,12 @@ body {
   width: 100%;
 }
 
+.banner {
+  background: url("https://benttree.org/monkimage.php?mediaDirectory=mediafiles&mediaId=6676055&fileName=librandome-de-las-trampas-sermones-artwork-650-365-0-0.jpg") no-repeat center/100%;
+  height: 150px;
+  width: 100%;
+}
+
 /* --- Encabezado --- */
 
 header {
@@ -72,6 +78,7 @@ blockquote {
 }
 
 blockquote p {
+  font-weight: bold;
   padding: 15px;
   background: #dbe2ef;
   border-radius: 5px;
@@ -80,7 +87,6 @@ blockquote p {
 .nota {
   background-color: #3f72af;
   border-radius: 10px;
-  margin: 0 10px;
   padding: 10px;
 }
 
