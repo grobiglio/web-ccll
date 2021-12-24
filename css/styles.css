@@ -73,6 +73,17 @@ a {
 
 /* Estilos de la página de la Biblia en un año */
 
+.sumarse-y-suscribirse {
+    margin: 20px auto;
+    padding: 20px 10%;
+    text-align: center;
+    width: 70%;
+}
+
+.sumarse-y-suscribirse p {
+    margin-bottom: 30px;
+}
+
 .contenedor-biblia-un-anio {
     margin: 5px;
     text-align: center;
