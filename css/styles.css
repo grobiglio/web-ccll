@@ -111,6 +111,15 @@ a {
     box-shadow: -3px -3px 3px #3f72af inset;
 }
 
+/* Estilos de la página de Sermones */
+
+.sermones {
+    border: 1px solid #112d4e;
+    height: 50px;
+    margin: 10px;
+    width: 100%
+}
+
 /* Media queries tomados de Bootstrap */
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
