@@ -115,9 +115,16 @@ a {
 
 .sermones {
     border: 1px solid #112d4e;
-    height: 50px;
-    margin: 10px;
-    width: 100%
+    border-radius: 15px;
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    width: 80%
+}
+
+.sermones p {
+    margin: 0;
 }
 
 /* Media queries tomados de Bootstrap */
