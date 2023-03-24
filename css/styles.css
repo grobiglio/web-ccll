@@ -1,120 +1,62 @@
-/* Paleta: https://colorhunt.co/palette/22272 */
-
-.fondo-menu {
-    background-color: #112d4e;
-}
+/* Paleta: https://coolors.co/palette/d8f3dc-b7e4c7-95d5b2-74c69d-52b788-40916c-2d6a4f-1b4332-081c15 */
 
 /* Estilos de la página principal */
 
 body {
-    background-color: #f9f7f7;
+    background-color: #D8F3DC;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1, h2, h3, p {
+    margin: 0;
 }
 
 a {
+    color: #D8F3DC;
+    font-size: 1rem;
     text-decoration: none;
 }
 
-.anuncio {
-    padding: 50px 0 30px;
-    text-align: center;
-}
-
-.somos, .texto-biblico, .horarios, .contacto {
-    margin: 30px auto;
-    text-align: center;
-    width: 40%;
-}
-
-.ubicacion {
-    text-align: center;
-}
-
-.mapa {
-    height: 200px;
-    width: 90%;
-}
-
-/* Estilos de la página de estudios */
-
-.detalle-estudios {
-    border: 1px solid #112d4e;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px #3f72af;
-    margin: 10px auto;
+header {
+    background-color: #081C15;
+    color: #D8F3DC;
     padding: 10px;
-    width: 95%;
 }
 
-.link-leccion {
-    display: inline-block;
-    margin: 0 10px;
-    text-align: center;
-    width: 135px;
-}
-
-.link-leccion:hover {
-    background-color: #dbe2ef;
-    border-radius: 15px;
-}
-
-.leccion {
-    color: black;
-    text-decoration: none;
-}
-
-.pie-de-pagina {
-    background-color: #112d4e;
-    color: white;
+footer {
+    background-color: #081C15;
+    color: #D8F3DC;
     height: 40px;
     line-height: 40px;
-    text-align: center;
-    width: 100%;
-  }
-
-/* Estilos de la página de la Biblia en un año */
-
-.sumarse-y-suscribirse {
-    margin: 20px auto;
-    padding: 20px 10%;
-    text-align: center;
-    width: 70%;
 }
 
-.sumarse-y-suscribirse p {
-    margin-bottom: 30px;
-}
-
-.contenedor-biblia-un-anio {
+button {
+    border: 0;
+    color: #D8F3DC;
     margin: 5px;
-    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #081C15;
 }
 
-.dia-biblia-un-anio {
-    background-color: #3f72af;
-    border-radius: 5px 0;
-    display: block;
-    margin: 0;
-    position: relative;
-    left: -13px;
-    width: 100px;
+.placas {
+    border: solid 1px #081C15;
+    margin: 5%;
+    padding: 10px;
 }
 
-.video-biblia-un-anio {
-    height: 250px;
-    margin: 0 auto;
-    width: 95%;
-}
-
-.cont-vid-bib-un-anio {
-    border: 1px solid #112d4e;
-    border-radius: 5px;
-    box-shadow: -3px -3px 3px #3f72af inset;
+.placas p {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Estilos de la página de Sermones */
 
 .sermones {
-    border: 1px solid #112d4e;
+    background-color: #2D6A4F;
+    border: 1px solid #081C15;
     border-radius: 15px;
     display: block;
     margin: 10px auto;
@@ -123,48 +65,12 @@ a {
     width: 80%
 }
 
-.sermones p {
-    margin: 0;
+.varones {
+    border: 1px solid #081C15;
+    border-radius: 15px;
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    width: 80%
 }
-
-/* Media queries tomados de Bootstrap */
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query for `xs` since this is the default in Bootstrap */
-
-/* Large devices (desktops, 992px and up) */
-@media screen and (max-width: 992px) {
-    .somos, .texto-biblico, .horarios, .contacto {
-        width: 50%;
-    }
-    
-    .mapa {
-        width: 95%;
-    }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media screen and (max-width: 768px) {
-    .somos, .texto-biblico, .horarios, .contacto {
-        width: 70%;
-    }
-    
-    .mapa {
-        width: 98%;
-    }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media screen and (max-width: 576px) {
-    .somos, .texto-biblico, .horarios, .contacto {
-        width: 80%;
-    }
-    
-    .mapa {
-        width: 100%;
-    }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-/*
-@media (min-width: 1200px) { ... }
-*/
