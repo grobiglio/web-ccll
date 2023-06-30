@@ -14,9 +14,13 @@ h1, h2, h3, p {
 }
 
 a {
-    color: #D8F3DC;
+    color: #52B788;
     font-size: 1rem;
     text-decoration: none;
+}
+
+a:hover {
+    color: #40916C;
 }
 
 header {
@@ -65,6 +69,8 @@ button {
     width: 80%
 }
 
+/* Estilos de la página de la reunión de varones */
+
 .varones {
     border: 1px solid #081C15;
     border-radius: 15px;
@@ -73,4 +79,37 @@ button {
     padding: 15px;
     text-align: center;
     width: 80%
+}
+
+.varones p {
+    line-height: 2;
+}
+
+.video-varones {
+    height: 300px;
+    margin-top: 15px;
+    width: 80%;
+}
+
+.notas-varones {
+    border: 1px solid #081C15;
+    border-radius: 15px;
+    display: block;
+    margin: 10px auto;
+    line-height: 2;
+    padding: 15px;
+    text-align: left;
+    width: 80%
+}
+
+@media (min-width: 800px) {
+    
+    .varones {
+        width: 650px;
+    }
+
+    .notas-varones {
+        width: 650px;
+    }
+
 }
