@@ -85,6 +85,10 @@ button {
     line-height: 2;
 }
 
+.varones img {
+    width: 70%;
+}
+
 .video-varones {
     height: 300px;
     margin-top: 15px;
