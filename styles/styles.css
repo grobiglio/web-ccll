@@ -79,6 +79,26 @@ footer {
     padding: 2rem 0 1rem;
 }
 
+.btn-para-fondo-claro {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family:  'Roboto', sans-serif;
+  color: #081C15;
+  font-weight: 400;
+  padding: 10px 20px 10px 20px;
+  border: solid #081C15 1px;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #B7E4C7;
+}
+
+.btn-para-fondo-claro:hover {
+  background: #95D5B2;
+  text-decoration: none;
+}
+
 .fondo-oscuro {
     background-color: #1B4332;
     color: #D8F3DC;
