@@ -105,6 +105,26 @@ footer {
     padding: 2rem 0 1rem;
 }
 
+.btn-para-fondo-oscuro {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family:  'Roboto', sans-serif;
+  color: #D8F3DC;
+  font-weight: 400;
+  padding: 10px 20px 10px 20px;
+  border: solid #D8F3DC 1px;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #1B4332;
+}
+
+.btn-para-fondo-oscuro:hover {
+  background: #2D6A4F;
+  text-decoration: none;
+}
+
 .contenedor-redes {
   display: inline-flex;
   margin: 30px auto;
