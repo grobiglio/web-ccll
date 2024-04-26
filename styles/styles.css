@@ -35,6 +35,29 @@ footer {
     color: #D8F3DC;
 }
 
+table {
+  border-collapse: collapse;
+  border: 2px solid #081C15;
+  margin: 20px auto;
+  table-layout: fixed;
+  width: 600px;
+}
+
+th, td {
+  border: 1px solid #081C15;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+thead, tfoot {
+background-color: #1B4332;
+color: #D8F3DC;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: #95D5B2;
+}
+
 .bio {
   display: flex;
   justify-content: center; /* Aligns horizontally */
@@ -148,6 +171,10 @@ footer {
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (width < 576px) {
 
+  table {
+    width: 90%;
+  }
+
   .bio {
     display: flex;
     flex-direction: column;
@@ -171,6 +198,10 @@ footer {
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (576px <= width < 768px) {
 
+  table {
+    width: 90%;
+  }
+  
   .bio {
     display: flex;
     flex-direction: column;
