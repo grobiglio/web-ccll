@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-h2 {
+h1, h2 {
     font-family: 'Playfair Display', serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -21,7 +21,7 @@ p {
 
 a {
   text-decoration: none;
-  color: blue;
+  color: #D8F3DC;
 }
 
 nav {
@@ -68,6 +68,17 @@ tbody > tr:nth-of-type(even) {
   gap: 40px;
 }
 
+.contenedor-texto {
+  display: flex;
+  justify-content: center; /* Aligns horizontally */
+  align-items: center;     /* Aligns vertically */
+  height: fit-content;
+  width: 600px;
+  margin: auto;
+  gap: 40px;
+  text-align: left;
+}
+
 .navbar-brand {
     font-family: 'Playfair Display', serif;
     font-optical-sizing: auto;
@@ -82,6 +93,14 @@ tbody > tr:nth-of-type(even) {
 
 .navbar-brand:visited {
     color: #B7E4C7;
+}
+
+.navbar-toggler {
+  border: 2px solid #B7E4BB;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/toogler-icon.svg);
 }
 
 .nav-link {
@@ -168,6 +187,24 @@ tbody > tr:nth-of-type(even) {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
 }
 
+.listado-sermones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Aligns horizontally */
+  align-items: center;     /* Aligns vertically */
+  height: fit-content;
+  margin: auto;
+  gap: 40px;
+}
+
+.sermon {
+  height: 50px;
+  width: 50%;
+  border: white 1px solid;
+  border-radius: 10px;
+  padding-top: 13px;
+}
+
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (width < 576px) {
 
@@ -186,11 +223,27 @@ tbody > tr:nth-of-type(even) {
     gap: 40px;
   }
 
+  .contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+    text-align: left;
+  }
+
   .contenedor-redes {
     display: inline-flex;
     flex-direction: column;
     margin: 30px auto;
     gap: 40px;
+  }
+
+  .sermon {
+    width: 90%;
   }
 
 }
@@ -211,6 +264,22 @@ tbody > tr:nth-of-type(even) {
     width: 90%;
     margin: auto;
     gap: 40px;
+  }
+
+  .contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+    text-align: left;
+  }
+
+  .sermon {
+    width: 90%;
   }
 
 }
