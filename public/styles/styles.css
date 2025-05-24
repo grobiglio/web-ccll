@@ -59,11 +59,14 @@ tbody > tr:nth-of-type(even) {
 }
 
 .bio {
+  background-image: url("../images/Biblia.png");
+  background-size: cover;
+  color: #D8F3DC;
   display: flex;
   justify-content: center; /* Aligns horizontally */
   align-items: center;     /* Aligns vertically */
-  height: fit-content;
-  width: 600px;
+  height: 800px;
+  width: 100%;
   margin: auto;
   gap: 40px;
 }
