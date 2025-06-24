@@ -1,0 +1,91 @@
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+.navbar {
+  background-color: #1b4332 !important;
+}
+.navbar-nav .nav-link {
+  color: #f4f6f8 !important;
+  font-weight: 500;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #b7e4c7 !important;
+}
+.navbar-brand img {
+  height: 42px;
+}
+.hero-section {
+    background: url("../images/foto-portada.JPG") center center/cover no-repeat;
+    height: 100vh;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #f4f6f8;
+    text-shadow: 1px 1px 6px #00000088;
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(27, 67, 50, 0.55);
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.hero-title {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+.hero-subtitle {
+  font-size: 1.35rem;
+  margin-top: 1rem;
+}
+.section-title {
+  color: #2d6a4f;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 3px 14px #0001;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-3px) scale(1.015);
+}
+.footer {
+  background: #081c15;
+  color: #d8f3dc;
+  padding: 32px 0 12px;
+  margin-top: 0 !important; /* Quita margen superior extra */
+}
+.footer .footer-social {
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 32px; /* Más espacio entre íconos */
+}
+.footer .social-icon {
+  font-size: 2rem;
+  transition: color 0.2s;
+}
+.footer .copyright-text {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-section {
+    height: 75vh;
+    min-height: 320px;
+  }
+}
