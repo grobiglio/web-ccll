@@ -1,0 +1,134 @@
+/* =========================================
+   ESTILOS DE PERFIL - CCLL (Dark Theme Verde)
+   ========================================= */
+
+:root {
+    /* --- PALETA BASE VERDE --- */
+    --bg-body: #081c15;            /* Fondo verde muy oscuro */
+    --text-primary: #d8f3dc;       /* Texto principal verde muy claro */
+    
+    /* --- ACENTOS & NEON --- */
+    --accent-dark: #2d6a4f;        /* Tono oscuro para bordes sutiles */
+    --accent-mid: #40916c;         /* Tono intermedio */
+    --accent-light: #52b788;       /* Tono claro para bordes en reposo */
+    --accent-glow: #74c69d;        /* Tono brillante para efecto hover (glow) */
+    
+    /* --- VARIABLES DE BOTONES --- */
+    --radius-pill: 50px;           
+    --btn-bg: #040c09;             /* Fondo casi negro con matiz verde */
+    --btn-bg-hover: #06120e;       
+    --font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-body);
+    color: var(--text-primary);
+    font-family: var(--font-stack);
+    margin: 0;
+}
+
+/* --- ENCABEZADO Y PERFIL --- */
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--accent-mid);
+    box-shadow: 0 0 15px rgba(82, 183, 136, 0.2); 
+    transition: all 0.3s ease;
+}
+
+.profile-pic:hover {
+    border-color: var(--accent-glow);
+    box-shadow: 0 0 25px rgba(116, 198, 157, 0.4);
+}
+
+.name {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.5px;
+}
+
+.tagline {
+    font-size: 1.05rem;
+    color: var(--accent-light);
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+/* --- CONTENEDOR DE ENLACES --- */
+.links-container {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+/* --- BOTONES DE ENLACE (Pill con Neon Glow) --- */
+.link-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    
+    /* Estética */
+    border-radius: var(--radius-pill);
+    background-color: var(--btn-bg);
+    color: var(--text-primary);
+    border: 2px solid var(--accent-light);
+    box-shadow: 0 0 8px rgba(82, 183, 136, 0.3);
+    
+    /* Tipografía */
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+    transition: all 0.3s ease;
+}
+
+.link-button i {
+    font-size: 1.3rem;
+    color: var(--accent-light);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Estado Hover */
+.link-button:hover {
+    background-color: var(--btn-bg-hover);
+    border-color: var(--accent-glow);
+    box-shadow: 0 0 15px var(--accent-glow), 0 0 25px rgba(116, 198, 157, 0.3);
+    transform: scale(1.03);
+    color: #ffffff;
+}
+
+.link-button:hover i {
+    color: var(--accent-glow);
+    transform: scale(1.1);
+}
+
+/* Estado Active (Click) */
+.link-button:active {
+    transform: scale(0.98);
+    box-shadow: 0 0 5px var(--accent-glow);
+}
+
+/* --- PIE DE PÁGINA --- */
+footer {
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--accent-dark);
+    color: var(--accent-light);
+    font-size: 0.95rem;
+    font-style: italic;
+    line-height: 1.6;
+    opacity: 0.8;
+    width: 100%;
+    max-width: 450px;
+}
+
+/* --- UTILIDADES --- */
+::selection {
+    background-color: var(--accent-glow);
+    color: #000000;
+}
