@@ -132,3 +132,19 @@ footer {
     background-color: var(--accent-glow);
     color: #000000;
 }
+
+/* --- APP INSTALABLE (PWA) --- */
+.link-instalar {
+    border-style: dashed;
+    font-family: inherit;
+}
+
+.ayuda-instalar {
+    margin: 1rem 0;
+    font-size: 0.95rem;
+    color: var(--accent-light);
+}
+
+.ayuda-instalar strong {
+    color: var(--text-primary);
+}

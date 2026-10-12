@@ -1,0 +1,18 @@
+{
+  "id": "/enlaces/",
+  "name": "Comunidad Cristiana Laguna Larga",
+  "short_name": "CCLL",
+  "description": "Edificando vidas sobre la verdad del Evangelio. Declaración de fe, actividades, discipulado, sermones y redes sociales.",
+  "lang": "es",
+  "start_url": "/enlaces/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#081c15",
+  "theme_color": "#081c15",
+  "icons": [
+    { "src": "/images/iconos/icono-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/images/iconos/icono-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/images/iconos/icono-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/images/iconos/icono-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
