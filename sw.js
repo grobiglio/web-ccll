@@ -3,12 +3,13 @@
    - Resto de recursos (CSS, JS, imágenes, fuentes de los CDN): se sirve la
      copia guardada y se actualiza en segundo plano.
    Al cambiar la lista PRECACHE, subir la versión de CACHE. */
-const CACHE = "ccll-v1";
+const CACHE = "ccll-v2";
 
 const PRECACHE = [
     "/enlaces/",
     "/enlaces/styles.css",
     "/enlaces/logo1.png",
+    "/enlaces/compartir.js",
     "/declaracion-de-fe.html",
     "/actividades.html",
     "/styles/contenido.css",

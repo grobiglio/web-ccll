@@ -133,12 +133,13 @@ footer {
     color: #000000;
 }
 
-/* --- APP INSTALABLE (PWA) --- */
-.link-instalar {
+/* --- BOTONES PROPIOS: COMPARTIR E INSTALAR LA APP --- */
+.link-secundario {
     border-style: dashed;
     font-family: inherit;
 }
 
+/* --- APP INSTALABLE (PWA) --- */
 .ayuda-instalar {
     margin: 1rem 0;
     font-size: 0.95rem;

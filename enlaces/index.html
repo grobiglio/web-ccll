@@ -60,8 +60,12 @@
                 <i class="fab fa-whatsapp"></i> Canal de WhatsApp
             </a>
 
+            <button type="button" class="link-button link-secundario" id="compartir">
+                <i class="fas fa-share-nodes"></i> <span>Compartir</span>
+            </button>
+
             <!-- Solo visibles si la app se puede instalar (ver /pwa.js) -->
-            <button type="button" class="link-button link-instalar" id="instalar-app" hidden>
+            <button type="button" class="link-button link-secundario" id="instalar-app" hidden>
                 <i class="fas fa-download"></i> Instalar la app
             </button>
             <p class="ayuda-instalar" id="instalar-ios" hidden>
@@ -78,5 +82,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/pwa.js"></script>
+    <script src="compartir.js"></script>
 </body>
 </html>
