@@ -148,7 +148,15 @@ Negamos que una profesión superficial de fe, como pasar al frente o levantar la
 
 *Cf. 1689, caps. 20 y 26.*
 
-### 19. La resurrección, el regreso de Cristo, el juicio y el destino eterno
+### 19. La guerra espiritual
+
+Creemos que Satanás es un ser personal, con intelecto y voluntad, creado bueno y caído por su rebelión contra Dios junto con los ángeles que lo siguieron, los demonios (Jn 8:44; 2 P 2:4; Jud 6; Ap 12:9). Es adversario, acusador y padre de mentira, y su estrategia es distorsionar la Palabra de Dios, cuestionar su carácter y apelar a las inclinaciones de la carne (Gn 3:1-5; 2 Co 11:3, 14; Ap 12:10). La guerra espiritual comenzó en el plano sobrenatural, pasó a la tierra con la caída del hombre y es, fundamentalmente, una batalla por la verdad de Dios frente a la mentira (2 Co 10:3-5).
+
+Todo creyente pelea en tres frentes: el mundo, la carne y el diablo (Ef 2:1-3; Gá 5:17; 1 P 5:8). El campo de batalla es la mente, los deseos y las emociones (Ro 12:2). Jesucristo venció a los principados y a las potestades por su muerte y su resurrección, y los exhibió públicamente (Col 2:15; Heb 2:14-15; 1 Jn 3:8). La iglesia es llamada a permanecer firme en esa victoria, vestida de toda la armadura de Dios y dependiendo de la Palabra, la oración en el Espíritu, el ayuno, la santificación y la comunión de la iglesia local (Ef 6:10-18). Su deber es resistir al diablo, firme en la fe y sometida a Dios (Stg 4:7; 1 P 5:8-9). El creyente, habitado por el Espíritu y unido a Cristo, está seguro en la victoria de la cruz (1 Jn 4:4; 5:18).
+
+Negamos que la guerra espiritual sea una contienda de poder terrenal o de métodos rituales humanos.
+
+### 20. La resurrección, el regreso de Cristo, el juicio y el destino eterno
 
 Creemos que Jesucristo volverá de manera personal, visible, corporal y gloriosa (Hch 1:11; 1 Ts 4:16; Tit 2:13; Ap 1:7). Habrá resurrección de los muertos, de los justos para vida y de los injustos para juicio (Jn 5:28-29; Hch 24:15), y todos comparecerán ante Dios, que juzgará con justicia por medio de Jesucristo (Ro 14:10-12; 2 Co 5:10). Los que no han creído sufrirán castigo eterno en el lago de fuego, un estado consciente de sufrimiento y de separación eterna de Dios (Mt 25:41, 46; 2 Ts 1:7-9; Ap 21:8). Los creyentes vivirán para siempre con Dios en los cielos nuevos y la tierra nueva, donde habita la justicia (2 P 3:13; Ap 21:1-4; 22:3-5).
 
@@ -167,6 +175,14 @@ Enseñamos que los dones espirituales son capacidades sobrenaturales que el Esp�
 Enseñamos el cesacionismo. Los dones temporales, reveladores y fundantes (apóstol, profeta, milagros, sanidad, lenguas, interpretación de lenguas, conocimiento y discernimiento de espíritus) cumplieron su función de establecer el fundamento de la iglesia y de autenticar a los mensajeros de Dios, y cesaron al completarse la revelación escrita (Ef 2:20; Heb 2:3-4; 1 Co 13:8-10). Dios sigue obrando de manera soberana, también sanando, en respuesta a la oración (Stg 5:14-15), pero no mediante personas que posean esos dones.
 
 Los dones permanentes, edificantes y de servicio (maestro y pastor, evangelista, ayuda, administración, sabiduría, fe, servicio, exhortación, dar y misericordia) continúan hasta que Cristo venga por su iglesia (Ro 12:6-8; 1 Co 12:28; Ef 4:11). Todo creyente es llamado a identificar su don, a contentarse con él, a ejercitarlo y a utilizarlo para servir a los demás.
+
+### La posesión demoníaca y la liberación
+
+Enseñamos que la posesión demoníaca es el control interno que un espíritu inmundo ejerce sobre una persona no regenerada, y que afecta su mente, sus emociones y su cuerpo (Mr 5:1-5; Lc 8:26-36). Un creyente genuino, habitado por el Espíritu Santo y unido a Cristo, no puede ser poseído por Satanás (1 Co 6:19; 1 Jn 4:4; 5:18). El poder para liberar a una persona del dominio de las tinieblas pertenece únicamente al Espíritu Santo, que actúa mediante la proclamación fiel de la Palabra, la eficacia del evangelio y la fe en la verdad de Dios (Col 1:13; Ro 1:16; Jn 8:32). Las armas de la iglesia contra las fortalezas del enemigo son la predicación de la Escritura, la oración perseverante en el Espíritu, el ayuno y la santificación personal (2 Co 10:3-5).
+
+Rechazamos el llamado «movimiento de liberación» contemporáneo y sus espectáculos, que convierten la guerra espiritual en una contienda de poder terrenal, de gritos y de rituales humanos. Rechazamos también entablar conversaciones o interrogatorios con demonios para conocer sus nombres, jerarquías o intenciones: la Escritura no muestra a los apóstoles dialogando con ellos ni dándoles lugar para hablar, sino silenciándolos y expulsándolos con la autoridad de la Palabra de Dios (Mr 1:25, 34; Hch 16:16-18).
+
+Cristo dio autoridad sobre los demonios a los doce y a los setenta durante su ministerio (Mt 10:1; Lc 10:17-20), pero el Nuevo Testamento no la presenta como un don de la iglesia, y las epístolas no mandan expulsar demonios. A la iglesia se le manda resistir al diablo, no reprenderlo ni ordenarle: nos sometemos a Dios, permanecemos firmes en la fe y confiamos en que huirá (Stg 4:7; 1 P 5:8-9; Ef 6:11-13). Ni el arcángel Miguel se atrevió a pronunciar juicio contra el diablo por sí mismo, sino que apeló al Señor (Jud 8-10; 2 P 2:10-12). Los demonios huyen de una persona por el poder del Espíritu Santo, no por la autoridad de la iglesia ni de sus miembros.
 
 ### Divorcio y nuevo casamiento
 
